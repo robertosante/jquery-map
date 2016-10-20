@@ -1,0 +1,24 @@
+#map {
+	overflow: hidden;
+}
+
+.picture {
+	background: yellow;
+	overflow: hidden;
+	position: relative;
+}
+
+.picture span {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 4px;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.picture img {
+	height: 400px;
+}
